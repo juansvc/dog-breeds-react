@@ -24,4 +24,4 @@ I started off using `create-react-app` to build out the framework, then implemen
 - `yarn start` to run frontend app
 
 ## Demo
-![Alt text](img.png?raw=true "Dogs")
+![Alt text](dogs.png?raw=true "Dogs")
