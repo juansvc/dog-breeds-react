@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Header.scss'
+
 const Header = () => {
   return (
     <>
@@ -43,12 +45,12 @@ const Header = () => {
     </div>
 
     <div className='block w-full text-white bg-gray-900'>
-      <div className='flex justify-between'>
-        <div className='flex flex-row py-4 whitespace-pre-wrap'>
+      <div className='sm:inline-block md:flex lg:flex xl:flex justify-between'>
+        <div className='sm:inline-block md:flex lg:flex xl:flex flex-row py-4 whitespace-pre-wrap dogs-header'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis diam et tortor auctor bibendum. Morbi luctus, nunc eu aliquam faucibus, nibh ex fermentum odio, quis fringilla lorem sem quis est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam viverra eros ante, at interdum lacus faucibus et. Sed vulputate, dolor vel tristique mattis, tortor quam fermentum magna, vitae feugiat lectus libero ac lacus. Mauris luctus orci id auctor iaculis. Vivamus ac elementum velit. Cras tincidunt leo vitae dictum aliquam.<br/>
         Fusce tortor risus, dignissim cursus risus ut, maximus fringilla odio. Proin justo magna, aliquam at volutpat vel, posuere a odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate eu sem placerat consequat. Maecenas vehicula eros sed congue sollicitudin. Quisque mollis sapien at nisi fringilla, non accumsan nisl hendrerit. Nam a magna vel ipsum molestie suscipit. Nullam sit amet orci augue.         
         </div>
-        <div className='flex flex-row text-left pt-3'>
+        <div className='sm:inline-block md:flex lg:flex xl:flex flex-row text-left pt-3 dogs-header'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/s_uiya1WsQ0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>

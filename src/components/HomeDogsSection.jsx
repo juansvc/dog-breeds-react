@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Loader from '../containers/Loader'
 
+import './HomeDogsSection.scss'
+
 const HomeDogsSection = (props) => {
 
     const { header, dogs } = props  
@@ -36,11 +38,11 @@ const HomeDogsSection = (props) => {
                     {header}
                 </h1>
             </div>
-            <div className='flex flex-wrap flex-row'>
+            <div className='flex flex-wrap flex-row dogs-grid'>
                 {dogsImgs ?
                     dogs.map((dog) => (
                         <div
-                            className='xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-full w-1/3 py-2'
+                            className='xl:w-1/5 lg:w-1/4 md:w-1/3 sm:w-full py-2 dogs-card'
                             key={dog}
                         >
                             <div>
