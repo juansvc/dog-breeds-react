@@ -1,10 +1,8 @@
 # Dogs
 
-@juan-vivanco
-
 ## Overview
 
-A React Frontend task for Shopventory. of a web application to show dog breeds images.
+A React Web application to show dog breeds images.
 
 ## Technologies Used
 
